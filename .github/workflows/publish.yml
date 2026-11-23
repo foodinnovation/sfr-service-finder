@@ -42,10 +42,11 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
 
-      - name: Collect the site
+      - name: Collect the site and build the crawlable versions
         run: |
           mkdir site
           cp -r index.html preview.html assets content site/
+          python tools/build_static.py site
 
       - uses: actions/configure-pages@v5
 

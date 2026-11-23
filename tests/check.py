@@ -8,7 +8,7 @@
 
 Run: python tests/check.py   (needs: pip install playwright && python -m playwright install chromium)
 """
-import functools, http.server, json, pathlib, re, sys, threading
+import functools, html, http.server, json, pathlib, re, sys, threading
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LANGS = ["de", "fr", "en"]
@@ -59,6 +59,32 @@ if sorted(listed) != sorted(services):
 for key, s in services.items():
     if not (ROOT / "assets/icons" / (s["icon"] + ".svg")).exists():
         errors.append(f"icon assets/icons/{s['icon']}.svg for '{key}' is missing")
+if errors:
+    print("\n".join("FAIL " + e for e in errors))
+    sys.exit(1)
+
+# crawlable versions (static fragments, JSON-LD, llms.txt)
+import subprocess, tempfile
+tmp = pathlib.Path(tempfile.mkdtemp())
+subprocess.run([sys.executable, str(ROOT / "tools/build_static.py"), str(tmp)], check=True, capture_output=True)
+for l in LANGS:
+    frag = html.unescape((tmp / "static" / f"{l}.html").read_text())
+    if frag.count("<article>") != len(services):
+        errors.append(f"static/{l}.html lists {frag.count('<article>')} services, not {len(services)}")
+    ld = re.search(r'<script type="application/ld\+json">(.*?)</script>', frag, re.S)
+    try:
+        data = json.loads(ld.group(1))
+        if len(data["hasOfferCatalog"]["itemListElement"]) != len(services):
+            errors.append(f"static/{l}.html: JSON-LD does not list every service")
+    except Exception as ex:
+        errors.append(f"static/{l}.html: JSON-LD unreadable ({ex})")
+    for m in re.finditer(r"CHF ?\d[\d']*", frag):
+        if "39'000" not in m.group(0):
+            errors.append(f"static/{l}.html: a price appears: {m.group(0)}")
+llms = (tmp / "llms.txt").read_text()
+for s in services:
+    if content["en"]["services"][s]["title"] not in llms:
+        errors.append(f"llms.txt lacks '{s}'")
 if errors:
     print("\n".join("FAIL " + e for e in errors))
     sys.exit(1)

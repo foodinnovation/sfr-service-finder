@@ -20,6 +20,18 @@ The services page of swissfoodresearch.ch, in German, French and English. Visito
 
 No prices appear on the website (decision of 23 November 2026). Services where members get better terms carry `"member_advantage": true` in `structure.json`.
 
+## For search engines and AI tools
+
+The interactive page builds itself in the browser and is set to noindex, so crawlers learn little from it. Each publish therefore also builds, from the same content files:
+
+| File | Use |
+| --- | --- |
+| https://foodinnovation.github.io/sfr-service-finder/static/de.html (also `fr.html`, `en.html`) | Every service as plain HTML text plus schema.org JSON-LD. For the Django services page to include server-side, under the iframe, so the text sits on swissfoodresearch.ch. |
+| https://foodinnovation.github.io/sfr-service-finder/services.jsonld | The schema.org data for all three languages. |
+| https://foodinnovation.github.io/sfr-service-finder/llms.txt | Plain-text summary of SFR and its services for AI tools; to be served at https://www.swissfoodresearch.ch/llms.txt. |
+
+The builder is `tools/build_static.py`; the check makes sure each fragment lists every service, the JSON-LD is valid and no price appears.
+
 ## Updating from the catalogue
 
 Ask Claude to "update the website from the catalogue" (skill `service-finder-sync`). It reads what changed in the catalogue since the version in `content/catalogue-sync.json`, proposes the website wording in DE, FR and EN, and publishes only after approval.

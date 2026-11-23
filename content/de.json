@@ -224,5 +224,12 @@
       "audience": "Alle",
       "blurb": "Monatlich: Calls, Anlässe und Trends aus dem Schweizer und internationalen Agro-Food-Sektor."
     }
+  },
+  "about": {
+    "heading": "Services von Swiss Food Research",
+    "summary": "Swiss Food Research ist das neutrale Innovationsnetzwerk der Schweiz für Agro-Food und Ernährung. Über 290 Mitgliedsorganisationen aus Start-ups, Industrie, Forschung und öffentlicher Hand entwickeln mit uns Ideen zu Lösungen, die im Markt bestehen.",
+    "for_whom": "Für wen",
+    "more": "Mehr dazu",
+    "toggle": "Alle Services als Text"
   }
 }
