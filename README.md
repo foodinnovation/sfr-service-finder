@@ -3,6 +3,7 @@
 The services page of swissfoodresearch.ch, in German, French and English. Visitors pick the question they face and see the services that fit, with all services listed below.
 
 - Live: https://foodinnovation.github.io/sfr-service-finder/ (add `?lang=fr` or `?lang=en`)
+- Preview as embedded on the website, with language and phone-width switches: https://foodinnovation.github.io/sfr-service-finder/preview.html
 - Built on the SFR Design System 2026: Funnel Sans, the design-system icons and the pillar colours.
 - The master for every text is the **SFR Service Catalogue 2027** (Claude doc). Change a service there first, then here.
 

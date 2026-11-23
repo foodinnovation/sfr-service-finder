@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Preview: SFR service finder as embedded on swissfoodresearch.ch</title>
+<style>
+body{margin:0;font:15px/1.4 "Helvetica Neue",Arial,sans-serif;background:#d9dde6;color:#030a21}
+.bar{position:sticky;top:0;z-index:2;background:#030a21;color:#f3f6ff;padding:12px 20px;display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.bar b{margin-right:8px}.bar button{font:inherit;padding:6px 14px;border-radius:999px;border:1px solid #f3f6ff;background:transparent;color:#f3f6ff;cursor:pointer}
+.bar button[aria-pressed="true"]{background:#f3f6ff;color:#030a21}.bar span{opacity:.7}
+.site{margin:0 auto;background:#fff;transition:max-width .2s}
+.mock{height:120px;background:#fff;border-bottom:1px solid #ccd;display:flex;align-items:center;padding:0 32px;color:#667;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.mock.foot{height:160px;background:#030a21;color:#a1abbe;border:0}
+</style>
+</head>
+<body>
+<div class="bar">
+  <b>Preview</b>
+  <span>Language</span><button data-lang="de" aria-pressed="true">DE</button><button data-lang="fr">FR</button><button data-lang="en">EN</button>
+  <span>Width</span><button data-w="100%" aria-pressed="true">Desktop</button><button data-w="390px">Phone</button>
+</div>
+<div class="site" id="site" style="max-width:100%">
+  <div class="mock">Website header (Django)</div>
+  <div id="slot"></div>
+  <div class="mock foot">Website footer (Django)</div>
+</div>
+<script>
+/* Mounts the service finder with the same code as the Django block in the README,
+   so this page also tests the block. */
+var state={lang:"de",w:"100%"};
+function mount(){
+  document.documentElement.lang=state.lang;
+  document.getElementById("site").style.maxWidth=state.w;
+  var slot=document.getElementById("slot");
+  slot.innerHTML='<iframe id="sfr-service-finder" title="Services" loading="lazy" style="width:100%;height:2600px;border:0;display:block"></iframe>';
+  var f=document.getElementById("sfr-service-finder"),l=(document.documentElement.lang||"de").slice(0,2);
+  f.src=new URL("./?lang="+(["de","fr","en"].indexOf(l)>-1?l:"de"),location.href).href;
+}
+window.addEventListener("message",function(e){
+  if(e.origin!==location.origin||!e.data||!e.data.sfrServiceFinder)return;
+  var f=document.getElementById("sfr-service-finder"),m=e.data.sfrServiceFinder;
+  if(m.height)f.style.height=m.height+"px";
+  if(m.scrollTo!=null)window.scrollTo({top:f.getBoundingClientRect().top+window.scrollY+m.scrollTo-80,behavior:"smooth"});
+});
+document.querySelector(".bar").addEventListener("click",function(e){
+  var b=e.target.closest("button");if(!b)return;
+  var key=b.dataset.lang?"lang":"w";state[key]=b.dataset[key];
+  document.querySelectorAll(".bar button[data-"+key+"]").forEach(function(x){x.setAttribute("aria-pressed",x===b)});
+  mount();
+});
+mount();
+</script>
+</body>
+</html>

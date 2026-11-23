@@ -45,7 +45,7 @@ jobs:
       - name: Collect the site
         run: |
           mkdir site
-          cp -r index.html assets content site/
+          cp -r index.html preview.html assets content site/
 
       - uses: actions/configure-pages@v5
 
