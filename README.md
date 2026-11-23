@@ -16,8 +16,13 @@ The services page of swissfoodresearch.ch, in German, French and English. Visito
 | Links (membership, coaching, forms) per language | `links` in each language file |
 | Page, layout and behaviour | `index.html`, `assets/style.css`, `assets/app.js` |
 | Icons and fonts | `assets/icons/`, `assets/fonts/` |
+| Which catalogue version was last carried over | `content/catalogue-sync.json` |
 
 No prices appear on the website (decision of 23 November 2026). Services where members get better terms carry `"member_advantage": true` in `structure.json`.
+
+## Updating from the catalogue
+
+Ask Claude to "update the website from the catalogue" (skill `service-finder-sync`). It reads what changed in the catalogue since the version in `content/catalogue-sync.json`, proposes the website wording in DE, FR and EN, and publishes only after approval.
 
 ## How to change something
 
