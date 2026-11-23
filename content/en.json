@@ -28,19 +28,19 @@
   "innovation_groups": {
     "eyebrow": "Our core business",
     "title": "Innovation groups: where innovation starts.",
-    "text": "In twelve topic groups, firms, researchers and startups meet several times a year, often at a member's site. They share problems, test ideas and start joint projects, with our help on partners and funding.",
+    "text": "In twelve topic groups, firms, researchers and startups meet twice a year, often at a member's site. They share problems, test ideas and start joint projects, with our help on partners and funding.",
     "facts": [
       {
         "number": "12",
         "label": "topic groups"
       },
       {
-        "number": "23",
-        "label": "meetings in 2026"
+        "number": "2",
+        "label": "meetings a year per group"
       },
       {
-        "number": "1'288",
-        "label": "registrations in 2026"
+        "number": "1'000+",
+        "label": "participants a year"
       }
     ],
     "groups": [
@@ -111,7 +111,7 @@
       "title": "Innovation groups",
       "line": "Meet the companies and researchers working on your problem, in twelve topic groups that turn shared challenges into joint projects.",
       "audience": "Members; guests twice for free",
-      "blurb": "Twelve groups, from insects to coffee, bring firms, research and startups to one table several times a year, often at a member's site. They share problems, test ideas and start joint projects. In 2026, 23 meetings drew 1'288 registrations.",
+      "blurb": "Twelve groups, from insects to coffee, bring firms, research and startups to one table twice a year, often at a member's site. They share problems, test ideas and start joint projects. More than 1'000 participants a year.",
       "button": "See the innovation groups"
     },
     "coach": {

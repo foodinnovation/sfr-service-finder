@@ -28,19 +28,19 @@
   "innovation_groups": {
     "eyebrow": "Unser Kerngeschäft",
     "title": "Innovationsgruppen: Hier beginnt Innovation.",
-    "text": "In zwölf Themengruppen treffen sich Firmen, Forschung und Start-ups mehrmals im Jahr, oft bei einem Mitglied vor Ort. Sie teilen Probleme, testen Ideen und starten gemeinsame Projekte, mit unserer Hilfe bei Partnern und Finanzierung.",
+    "text": "In zwölf Themengruppen treffen sich Firmen, Forschung und Start-ups zweimal im Jahr, oft bei einem Mitglied vor Ort. Sie teilen Probleme, testen Ideen und starten gemeinsame Projekte, mit unserer Hilfe bei Partnern und Finanzierung.",
     "facts": [
       {
         "number": "12",
         "label": "Themengruppen"
       },
       {
-        "number": "23",
-        "label": "Treffen 2026"
+        "number": "2",
+        "label": "Treffen pro Jahr und Gruppe"
       },
       {
-        "number": "1'288",
-        "label": "Anmeldungen 2026"
+        "number": "1'000+",
+        "label": "Teilnehmende pro Jahr"
       }
     ],
     "groups": [
@@ -111,7 +111,7 @@
       "title": "Innovationsgruppen",
       "line": "Treffen Sie die Firmen und Forschenden, die an Ihrem Problem arbeiten: in zwölf Themengruppen, aus denen gemeinsame Projekte entstehen.",
       "audience": "Mitglieder; Gäste zweimal kostenlos",
-      "blurb": "Zwölf Gruppen, von Insekten bis Kaffee, bringen Firmen, Forschung und Start-ups mehrmals im Jahr an einen Tisch, oft bei einem Mitglied vor Ort. Sie teilen Probleme, testen Ideen und starten gemeinsame Projekte. 2026 kamen 1'288 Anmeldungen an 23 Treffen zusammen.",
+      "blurb": "Zwölf Gruppen, von Insekten bis Kaffee, bringen Firmen, Forschung und Start-ups zweimal im Jahr an einen Tisch, oft bei einem Mitglied vor Ort. Sie teilen Probleme, testen Ideen und starten gemeinsame Projekte. Über 1'000 Teilnehmende pro Jahr.",
       "button": "Zu den Innovationsgruppen"
     },
     "coach": {

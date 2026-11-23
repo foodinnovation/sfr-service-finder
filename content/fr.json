@@ -28,19 +28,19 @@
   "innovation_groups": {
     "eyebrow": "Notre cœur de métier",
     "title": "Groupes d'innovation: là où l'innovation commence.",
-    "text": "Dans douze groupes thématiques, entreprises, chercheurs et start-up se retrouvent plusieurs fois par an, souvent chez un membre. Ils partagent leurs problèmes, testent des idées et lancent des projets communs, avec notre aide pour trouver partenaires et financements.",
+    "text": "Dans douze groupes thématiques, entreprises, chercheurs et start-up se retrouvent deux fois par an, souvent chez un membre. Ils partagent leurs problèmes, testent des idées et lancent des projets communs, avec notre aide pour trouver partenaires et financements.",
     "facts": [
       {
         "number": "12",
         "label": "groupes thématiques"
       },
       {
-        "number": "23",
-        "label": "rencontres en 2026"
+        "number": "2",
+        "label": "rencontres par an et par groupe"
       },
       {
-        "number": "1'288",
-        "label": "inscriptions en 2026"
+        "number": "1'000+",
+        "label": "participants par an"
       }
     ],
     "groups": [
@@ -111,7 +111,7 @@
       "title": "Groupes d'innovation",
       "line": "Rencontrez les entreprises et les chercheurs qui travaillent sur votre problème, dans douze groupes thématiques d'où naissent des projets communs.",
       "audience": "Membres; invités deux fois gratuitement",
-      "blurb": "Douze groupes, des insectes au café, réunissent entreprises, recherche et start-up plusieurs fois par an, souvent chez un membre. Ils partagent leurs problèmes, testent des idées et lancent des projets communs. En 2026, 23 rencontres ont réuni 1'288 inscriptions.",
+      "blurb": "Douze groupes, des insectes au café, réunissent entreprises, recherche et start-up deux fois par an, souvent chez un membre. Ils partagent leurs problèmes, testent des idées et lancent des projets communs. Plus de 1'000 participants par an.",
       "button": "Vers les groupes d'innovation"
     },
     "coach": {
