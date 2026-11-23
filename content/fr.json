@@ -1,0 +1,228 @@
+{
+  "ui": {
+    "title": "Où en êtes-vous?",
+    "lead": "Nous vous montrons comment nous pouvons vous soutenir.",
+    "values": [
+      "Confidentiel",
+      "Indépendant",
+      "Neutre"
+    ],
+    "matches": "Selon votre question",
+    "selected": "Votre sélection",
+    "selected_heading": "Le service en détail",
+    "best_match": "Meilleure correspondance",
+    "how_it_works": "Comment ça marche",
+    "for_whom": "Pour qui",
+    "learn_more": "En savoir plus",
+    "next_step": "Étape suivante: ",
+    "member_badge": "Avantage membres",
+    "member_note": "Les membres bénéficient de meilleures conditions.",
+    "become_member": "Devenir membre",
+    "unsure": "Vous hésitez? Réservez un ",
+    "unsure_link": "coaching individuel",
+    "book_coaching": "Réserver un coaching",
+    "overview_heading": "Les {n} services en un coup d'œil",
+    "overview_note": "Les membres bénéficient de meilleures conditions pour la plupart des services.",
+    "financing_note": "Le coaching et l'Ecosystem Map peuvent être financés par Ahead (canton de Zurich) ou par le mentorat en innovation d'Innosuisse."
+  },
+  "innovation_groups": {
+    "eyebrow": "Notre cœur de métier",
+    "title": "Groupes d'innovation: là où l'innovation commence.",
+    "text": "Dans douze groupes thématiques, entreprises, chercheurs et start-up se retrouvent plusieurs fois par an, souvent chez un membre. Ils partagent leurs problèmes, testent des idées et lancent des projets communs, avec notre aide pour trouver partenaires et financements.",
+    "facts": [
+      {
+        "number": "12",
+        "label": "groupes thématiques"
+      },
+      {
+        "number": "23",
+        "label": "rencontres en 2026"
+      },
+      {
+        "number": "1'288",
+        "label": "inscriptions en 2026"
+      }
+    ],
+    "groups": [
+      "Aquaculture",
+      "Bioconversion",
+      "Cacao & chocolat",
+      "Café",
+      "Numérisation",
+      "Champignons",
+      "Agriculture d'avenir",
+      "Céréales & boulangerie",
+      "Insectes",
+      "Emballage",
+      "Proteins4Future",
+      "Sustainable Nutrition"
+    ],
+    "button": "Tous les groupes d'innovation",
+    "guest_note": "Pas encore membre? Participez deux fois gratuitement en tant qu'invité."
+  },
+  "links": {
+    "member": "https://www.swissfoodresearch.ch/fr/avantages-de-ladhesion/",
+    "coaching": "https://www.swissfoodresearch.ch/fr/agro-food-innovation/coaching/",
+    "booster": "https://www.futurefoodfarming.org",
+    "maasBrief": "https://wkf.ms/4pqfnAG",
+    "radicle": "https://wkf.ms/4CaXiOi",
+    "ig": "https://www.swissfoodresearch.ch/en/agro-food-innovation/innovation-groups/"
+  },
+  "pillars": {
+    "innovation": "Innovation",
+    "business-creation": "Business Creation",
+    "talent": "Talent & Capability",
+    "network": "Réseau"
+  },
+  "questions": {
+    "idea": {
+      "label": "J'ai une idée.",
+      "hint": "Échanges, sparring, premier financement",
+      "heading": "De l'idée au projet"
+    },
+    "funding": {
+      "label": "Je cherche un financement.",
+      "hint": "Instruments d'encouragement et demandes",
+      "heading": "Trouver et obtenir un financement"
+    },
+    "market": {
+      "label": "Le marché achètera-t-il mon produit?",
+      "hint": "Valider avant l'entrée sur le marché",
+      "heading": "Tester le marché avant d'investir"
+    },
+    "partners": {
+      "label": "Je cherche des partenaires ou des équipements.",
+      "hint": "Contacts, machines, réseau",
+      "heading": "Trouver les bons partenaires"
+    },
+    "farm": {
+      "label": "Je gère une exploitation agricole.",
+      "hint": "De l'idée à la ferme au projet",
+      "heading": "Un accompagnement pour votre exploitation"
+    },
+    "rules": {
+      "label": "Ai-je le droit de vendre ce produit?",
+      "hint": "Clarté réglementaire",
+      "heading": "Clarifier tôt les questions réglementaires"
+    }
+  },
+  "services": {
+    "ig": {
+      "title": "Groupes d'innovation",
+      "line": "Rencontrez les entreprises et les chercheurs qui travaillent sur votre problème, dans douze groupes thématiques d'où naissent des projets communs.",
+      "audience": "Membres; invités deux fois gratuitement",
+      "blurb": "Douze groupes, des insectes au café, réunissent entreprises, recherche et start-up plusieurs fois par an, souvent chez un membre. Ils partagent leurs problèmes, testent des idées et lancent des projets communs. En 2026, 23 rencontres ont réuni 1'288 inscriptions.",
+      "button": "Vers les groupes d'innovation"
+    },
+    "coach": {
+      "title": "Coaching individuel",
+      "line": "Un expert neutre affine votre question d'innovation. Vous repartez avec des étapes claires, des contacts et des pistes de financement. Ouvert aussi aux non-membres.",
+      "audience": "Membres et non-membres",
+      "blurb": "Des entretiens individuels sur les tendances, des procédés résilients, la stratégie d'innovation et le financement. Chaque entretien se termine par des étapes claires. Les non-membres peuvent aussi réserver; les membres bénéficient de meilleures conditions.",
+      "button": "Réserver un coaching",
+      "financing": "D'autres séances peuvent être financées par Ahead (canton de Zurich) ou par le mentorat en innovation d'Innosuisse."
+    },
+    "booster": {
+      "title": "Innovation Booster Future Food Farming",
+      "line": "Jusqu'à CHF 39'000 et du coaching pour tester une idée radicale.",
+      "audience": "Toute organisation avec un partenaire de mise en œuvre et un partenaire de recherche",
+      "blurb": "Le programme d'Innosuisse géré par Swiss Food Research. Les équipes sélectionnées reçoivent jusqu'à CHF 39'000 et du coaching. 28 projets soutenus à ce jour."
+    },
+    "funding": {
+      "title": "Conseil en financement et relecture des demandes",
+      "line": "Plus de 100 instruments d'encouragement en Suisse: nous trouvons le bon, affinons votre projet et relisons votre demande en toute confidentialité.",
+      "audience": "Membres",
+      "blurb": "La Suisse compte plus de 100 instruments d'encouragement, d'Innosuisse à l'OFAG en passant par les programmes cantonaux. Nous vous accompagnons en trois étapes jusqu'au dépôt.",
+      "steps": [
+        "Nous trouvons l'instrument adapté à votre projet.",
+        "Nous affinons le projet et cherchons des partenaires dans la recherche et l'industrie.",
+        "Nous lisons votre demande comme un comité d'évaluation et vous remettons un retour écrit. En toute confidentialité: l'accord de confidentialité est inclus dans l'adhésion."
+      ],
+      "button": "Réserver un coaching"
+    },
+    "novel": {
+      "title": "Novel Food Check",
+      "line": "Sachez tôt si votre aliment a besoin d'une autorisation novel food.",
+      "audience": "Membres",
+      "blurb": "Nous examinons votre aliment avec notre propre outil d'IA selon le règlement (UE) 2015/2283 et le droit suisse, et préparons la consultation si nécessaire."
+    },
+    "farm": {
+      "title": "Accompagnement des agricultrices et agriculteurs",
+      "line": "Un soutien confidentiel, de l'idée à la ferme jusqu'au projet financé.",
+      "audience": "Exploitations agricoles",
+      "blurb": "Une première rencontre à la ferme clarifie le problème, la solution, les partenaires et le financement. Nous signons un accord de confidentialité et restons à vos côtés jusqu'au lancement du projet."
+    },
+    "radicle": {
+      "title": "Radicle",
+      "line": "Le wiki agroalimentaire de la Suisse: plus de 6'500 projets sur 50 ans. Qui fait des recherches sur quoi, qui serait un bon partenaire.",
+      "audience": "Membres et organisations intéressées",
+      "blurb": "Radicle rassemble des projets de recherche et d'innovation issus de sources publiques comme ARAMIS, le Fonds national suisse et Regiosuisse, et les traite avec l'intelligence artificielle: plus de 6'500 projets des 50 dernières années, mis à jour chaque trimestre. Vous trouvez en quelques minutes qui travaille sur votre thème, ce qui a déjà été financé et qui serait un bon partenaire. Utilisable sur le portail web ou directement dans Claude. Un projet de l'Office fédéral de l'agriculture, mis en œuvre par Swiss Food Research.",
+      "button": "S'inscrire au pilote"
+    },
+    "maas": {
+      "title": "MaaS: Market Validation as a Service",
+      "line": "Go, pivot ou stop, avant la première production.",
+      "audience": "Équipes fondatrices et entreprises; aussi pour des demandes de financement et des due diligence",
+      "blurb": "Vos clients achèteront-ils votre produit à votre prix? À partir d'un court brief, nous simulons environ 300 entretiens clients dans trois scénarios de marché, fondés sur les prix, les revenus et les habitudes alimentaires en Suisse.",
+      "when": "Quand: avant de construire ou de produire quoi que ce soit, ou pour vérifier au préalable une demande de financement.",
+      "steps": [
+        "Vous soumettez un brief: problème, clientèle, prix et vos critères de succès.",
+        "Nous ajoutons des données du marché suisse: produits comparables, revenus, allergies.",
+        "Environ 300 personas sont interrogés; quatre réviseurs indépendants contrôlent l'analyse.",
+        "Vous recevez le segment cible, la disposition à payer, cinq hypothèses à tester sur le terrain et des experts adaptés."
+      ],
+      "button": "Formulaire d'inscription"
+    },
+    "r2m": {
+      "title": "Route2Market",
+      "line": "De vrais acheteurs, rayons et cuisines testent votre produit avant que vous n'investissiez dans le lancement.",
+      "audience": "Membres disposant d'un produit fonctionnel",
+      "blurb": "Un Challenge Room avec des experts, puis des tests en rayon, en restauration et avec des panels de consommateurs. Foodflows a été lancé sur le marché après Route2Market.",
+      "when": "Quand: dès qu'un produit fonctionnel existe. Avant: MaaS."
+    },
+    "innoloop": {
+      "title": "Innoloop",
+      "line": "Des professionnels de la restauration vous aident à développer un produit ou à améliorer une recette.",
+      "audience": "Entreprises alimentaires",
+      "blurb": "Des cuisinières et cuisiniers testent votre produit en cuisine professionnelle et donnent un retour franc sur le goût et la manipulation.",
+      "when": "Quand: la restauration est votre canal. Complète MaaS et Route2Market."
+    },
+    "eco": {
+      "title": "Ecosystem Map",
+      "line": "Une carte des partenaires dont votre idée a besoin, et des mises en relation directes.",
+      "audience": "Membres et non-membres",
+      "blurb": "Nous décomposons votre idée selon les rôles de la chaîne de valeur, trouvons des candidats pour chaque rôle et ouvrons les premières portes. Nous nous appuyons pour cela sur environ 3'000 entreprises, groupes de recherche et autres organisations, répertoriés avec leurs besoins et leurs compétences, et sur un réseau actif de plus de 5'000 personnes.",
+      "financing": "Financement possible par Ahead (canton de Zurich) ou par le mentorat en innovation d'Innosuisse."
+    },
+    "equip": {
+      "title": "Equipment Sharing",
+      "line": "Économisez grâce au réseau: partager ou trouver des équipements.",
+      "audience": "Membres",
+      "blurb": "Réduisez vos coûts grâce au réseau. Les membres proposent des équipements inutilisés ou trouvent la machine pour leur prochain essai, de l'appareil de laboratoire à l'installation pilote."
+    },
+    "amp": {
+      "title": "AgrarMarktPionier",
+      "line": "Six mois pour tester de manière structurée une idée agricole sur le marché.",
+      "audience": "Exploitations agricoles",
+      "blurb": "Jusqu'à douze séances de coaching et de vrais entretiens avec des clients. La prochaine édition est prévue pour 2027."
+    },
+    "nextgen": {
+      "title": "Next Gen",
+      "line": "Nous apportons l'innovation alimentaire dans les classes des gymnases.",
+      "audience": "Écoles du degré secondaire II",
+      "blurb": "Des cours dans les gymnases sur les défis et les métiers du système alimentaire."
+    },
+    "events": {
+      "title": "Événements",
+      "line": "Rencontrez les partenaires, acheteurs et chercheurs dont vous avez besoin, lors de 30 événements par an, avec de meilleures conditions pour les membres.",
+      "audience": "Tout le monde",
+      "blurb": "En 2026, 30 événements ont réuni 1'543 inscriptions."
+    },
+    "news": {
+      "title": "Newsletter",
+      "line": "Appels à projets, événements et tendances dans une édition mensuelle, et une vitrine qui présente le travail des membres à plus de 290 organisations.",
+      "audience": "Tout le monde",
+      "blurb": "Chaque mois: appels à projets, événements et tendances du secteur agroalimentaire suisse et international."
+    }
+  }
+}

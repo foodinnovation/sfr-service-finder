@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 2400">
+<polyline fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" points="960 1060 1200 1060 1316.05 1854.88 1920 1854.88"/>
+<circle fill="#030a21" cx="1400" cy="2020" r="60"/>
+<circle fill="#030a21" cx="1820" cy="2020" r="60"/>
+<circle fill="#030a21" cx="544.96" cy="540" r="60"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="840" y1="860" x2="1000" y2="860"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1160" y1="860" x2="1320" y2="860"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1480" y1="860" x2="1640" y2="860"/>
+<polyline fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" points="1320 1640 1916.92 1640 2040 1200"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1620" y1="1300" x2="1620" y2="1140"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1620" y1="980" x2="1620" y2="820"/>
+<path fill="#030a21" d="M733.8,422.68c-41.64-64.3-112.23-102.68-188.84-102.68s-147.2,38.38-188.84,102.68c-41.39,63.89-47.59,143.34-16.61,212.55l117.68,264.77h87.54l-132.14-297.32-.05-.11c-10.26-22.9-14.31-46.88-12.04-71.28,2.14-22.92,10.01-45.44,22.76-65.12,12.84-19.83,30.35-36.35,50.65-47.79,21.64-12.2,45.54-18.38,71.05-18.38s49.41,6.18,71.05,18.38c20.3,11.44,37.81,27.96,50.65,47.79,12.75,19.68,20.62,42.2,22.76,65.12,2.27,24.4-1.78,48.38-12.04,71.28l-132.19,297.43h87.54l117.68-264.77c30.98-69.21,24.78-148.66-16.61-212.55Z"/>
+</svg>

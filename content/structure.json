@@ -1,0 +1,199 @@
+{
+  "services": {
+    "ig": {
+      "pillar": "innovation",
+      "icon": "partner",
+      "member_advantage": true,
+      "pilot": false,
+      "link": "ig"
+    },
+    "coach": {
+      "pillar": "innovation",
+      "icon": "coaching-conversation",
+      "member_advantage": true,
+      "pilot": false,
+      "link": "coaching"
+    },
+    "booster": {
+      "pillar": "innovation",
+      "icon": "rocket",
+      "member_advantage": false,
+      "pilot": false,
+      "link": "booster"
+    },
+    "funding": {
+      "pillar": "innovation",
+      "icon": "coin-money-funding",
+      "member_advantage": true,
+      "pilot": false,
+      "link": "coaching"
+    },
+    "novel": {
+      "pillar": "innovation",
+      "icon": "microscope",
+      "member_advantage": true,
+      "pilot": false
+    },
+    "farm": {
+      "pillar": "innovation",
+      "icon": "tractor",
+      "member_advantage": false,
+      "pilot": false
+    },
+    "radicle": {
+      "pillar": "innovation",
+      "icon": "magnifying-glass",
+      "member_advantage": false,
+      "pilot": true,
+      "link": "radicle"
+    },
+    "maas": {
+      "pillar": "business-creation",
+      "icon": "market-validation",
+      "member_advantage": true,
+      "pilot": true,
+      "next": "r2m",
+      "link": "maasBrief"
+    },
+    "r2m": {
+      "pillar": "business-creation",
+      "icon": "routetomarket",
+      "member_advantage": true,
+      "pilot": false,
+      "next": "innoloop"
+    },
+    "innoloop": {
+      "pillar": "business-creation",
+      "icon": "light-bulb",
+      "member_advantage": false,
+      "pilot": true
+    },
+    "eco": {
+      "pillar": "business-creation",
+      "icon": "collaboration-network",
+      "member_advantage": true,
+      "pilot": true
+    },
+    "equip": {
+      "pillar": "business-creation",
+      "icon": "tools",
+      "member_advantage": true,
+      "pilot": true
+    },
+    "amp": {
+      "pillar": "business-creation",
+      "icon": "plant",
+      "member_advantage": false,
+      "pilot": false
+    },
+    "nextgen": {
+      "pillar": "talent",
+      "icon": "graduate",
+      "member_advantage": false,
+      "pilot": false
+    },
+    "events": {
+      "pillar": "network",
+      "icon": "presenting",
+      "member_advantage": true,
+      "pilot": false
+    },
+    "news": {
+      "pillar": "network",
+      "icon": "speechbubble",
+      "member_advantage": false,
+      "pilot": false
+    }
+  },
+  "questions": [
+    {
+      "id": "idea",
+      "services": [
+        "coach",
+        "ig",
+        "booster",
+        "radicle"
+      ]
+    },
+    {
+      "id": "funding",
+      "services": [
+        "funding",
+        "booster",
+        "radicle"
+      ]
+    },
+    {
+      "id": "market",
+      "services": [
+        "maas",
+        "r2m",
+        "innoloop"
+      ]
+    },
+    {
+      "id": "partners",
+      "services": [
+        "ig",
+        "eco",
+        "equip",
+        "events"
+      ]
+    },
+    {
+      "id": "farm",
+      "services": [
+        "farm",
+        "amp",
+        "booster"
+      ]
+    },
+    {
+      "id": "rules",
+      "services": [
+        "novel",
+        "coach",
+        "funding"
+      ]
+    }
+  ],
+  "overview": [
+    {
+      "pillar": "innovation",
+      "services": [
+        "ig",
+        "coach",
+        "booster",
+        "funding",
+        "novel",
+        "farm",
+        "radicle"
+      ]
+    },
+    {
+      "pillar": "business-creation",
+      "services": [
+        "maas",
+        "r2m",
+        "innoloop",
+        "eco",
+        "equip",
+        "amp"
+      ]
+    },
+    {
+      "pillar": "talent",
+      "services": [
+        "nextgen"
+      ]
+    },
+    {
+      "pillar": "network",
+      "services": [
+        "events",
+        "news"
+      ]
+    }
+  ],
+  "default_question": "market"
+}

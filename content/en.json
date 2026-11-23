@@ -1,0 +1,228 @@
+{
+  "ui": {
+    "title": "Where are you right now?",
+    "lead": "We show how we can support you.",
+    "values": [
+      "Confidential",
+      "Independent",
+      "Neutral"
+    ],
+    "matches": "Matches your question",
+    "selected": "Your selection",
+    "selected_heading": "Service in detail",
+    "best_match": "Best match",
+    "how_it_works": "How it works",
+    "for_whom": "Who it is for",
+    "learn_more": "Learn more",
+    "next_step": "Next step: ",
+    "member_badge": "Member advantage",
+    "member_note": "Members get better terms.",
+    "become_member": "Become a member",
+    "unsure": "Not sure what fits? Book a ",
+    "unsure_link": "1:1 coaching",
+    "book_coaching": "Book coaching",
+    "overview_heading": "All {n} services at a glance",
+    "overview_note": "Members get better terms for most services.",
+    "financing_note": "Coaching and the Ecosystem Map can be financed through Ahead (canton of Zurich) or Innosuisse innovation mentoring."
+  },
+  "innovation_groups": {
+    "eyebrow": "Our core business",
+    "title": "Innovation groups: where innovation starts.",
+    "text": "In twelve topic groups, firms, researchers and startups meet several times a year, often at a member's site. They share problems, test ideas and start joint projects, with our help on partners and funding.",
+    "facts": [
+      {
+        "number": "12",
+        "label": "topic groups"
+      },
+      {
+        "number": "23",
+        "label": "meetings in 2026"
+      },
+      {
+        "number": "1'288",
+        "label": "registrations in 2026"
+      }
+    ],
+    "groups": [
+      "Aquaculture",
+      "Bioconversion",
+      "Cocoa & Chocolate",
+      "Coffee",
+      "Digitalisation",
+      "Fungi",
+      "Future-Proof Farming",
+      "Grains & Baked Goods",
+      "Insects",
+      "Packaging",
+      "Proteins4Future",
+      "Sustainable Nutrition"
+    ],
+    "button": "All innovation groups",
+    "guest_note": "Not a member yet? Join twice as a guest, free of charge."
+  },
+  "links": {
+    "member": "https://www.swissfoodresearch.ch/en/membership-benefits/",
+    "coaching": "https://www.swissfoodresearch.ch/de/agro-food-innovations-services/coaching/",
+    "booster": "https://www.futurefoodfarming.org",
+    "maasBrief": "https://wkf.ms/4pqfnAG",
+    "radicle": "https://wkf.ms/4CaXiOi",
+    "ig": "https://www.swissfoodresearch.ch/en/agro-food-innovation/innovation-groups/"
+  },
+  "pillars": {
+    "innovation": "Innovation",
+    "business-creation": "Business Creation",
+    "talent": "Talent & Capability",
+    "network": "Network"
+  },
+  "questions": {
+    "idea": {
+      "label": "I have an idea.",
+      "hint": "Exchange, sparring, first funding",
+      "heading": "From idea to project"
+    },
+    "funding": {
+      "label": "I need funding.",
+      "hint": "Funding instruments and proposals",
+      "heading": "Find and win funding"
+    },
+    "market": {
+      "label": "Will the market buy it?",
+      "hint": "Validation before launch",
+      "heading": "Test the market before you invest"
+    },
+    "partners": {
+      "label": "I need partners or equipment.",
+      "hint": "Contacts, machines, network",
+      "heading": "Find the right partners"
+    },
+    "farm": {
+      "label": "I run a farm.",
+      "hint": "From farm idea to project",
+      "heading": "Support for your farm"
+    },
+    "rules": {
+      "label": "Am I allowed to sell this?",
+      "hint": "Regulatory clarity",
+      "heading": "Clear regulatory questions early"
+    }
+  },
+  "services": {
+    "ig": {
+      "title": "Innovation groups",
+      "line": "Meet the companies and researchers working on your problem, in twelve topic groups that turn shared challenges into joint projects.",
+      "audience": "Members; guests twice for free",
+      "blurb": "Twelve groups, from insects to coffee, bring firms, research and startups to one table several times a year, often at a member's site. They share problems, test ideas and start joint projects. In 2026, 23 meetings drew 1'288 registrations.",
+      "button": "See the innovation groups"
+    },
+    "coach": {
+      "title": "1:1 coaching",
+      "line": "A neutral expert who sharpens your innovation question and leaves you with clear next steps, contacts and funding options. Open to non-members too.",
+      "audience": "Members and non-members",
+      "blurb": "One-to-one sessions on trends, resilient processes, innovation strategy and funding. Each ends with clear next steps. Non-members can book too; members get better terms.",
+      "button": "Book coaching",
+      "financing": "Further coaching can be financed through Ahead (canton of Zurich) or Innosuisse innovation mentoring."
+    },
+    "booster": {
+      "title": "Innovation Booster Future Food Farming",
+      "line": "Up to CHF 39'000 and coaching to test a radical idea.",
+      "audience": "Any organisation with an implementation and a research partner",
+      "blurb": "The Innosuisse programme Swiss Food Research runs. Selected teams get up to CHF 39'000 and coaching. 28 projects funded so far."
+    },
+    "funding": {
+      "title": "Funding support with proposal review",
+      "line": "Over 100 funding instruments in Switzerland: we find the one that fits, sharpen your project and review your proposal in confidence.",
+      "audience": "Members",
+      "blurb": "Switzerland has more than 100 funding instruments, from Innosuisse to the Federal Office for Agriculture and cantonal programmes. We guide you in three steps up to submission.",
+      "steps": [
+        "We find the instrument that fits your project.",
+        "We sharpen the project and look for research and industry partners.",
+        "We read your proposal like an evaluation panel and give written feedback. Confidential: the non-disclosure agreement is part of your membership."
+      ],
+      "button": "Book coaching"
+    },
+    "novel": {
+      "title": "Novel food check",
+      "line": "Find out early whether your food needs novel food approval.",
+      "audience": "Members",
+      "blurb": "We check your food with our own AI tool against EU Regulation 2015/2283 and Swiss law, and prepare the consultation if needed."
+    },
+    "farm": {
+      "title": "Support for farmers",
+      "line": "Confidential support from farm idea to funded project.",
+      "audience": "Farms",
+      "blurb": "A first visit on the farm clarifies problem, solution, partners and funding. We sign a confidentiality agreement and stay with you until the project runs."
+    },
+    "radicle": {
+      "title": "Radicle",
+      "line": "Switzerland's agro-food wiki: over 6'500 projects from 50 years. Who researches what, who fits as a partner.",
+      "audience": "Members and interested organisations",
+      "blurb": "Radicle gathers research and innovation projects from public sources such as ARAMIS, the Swiss National Science Foundation and Regiosuisse, and prepares them with artificial intelligence: more than 6'500 projects from the last 50 years, updated every quarter. Find out in minutes who works on your topic, what has been funded and who would make a good partner. Use it in the web portal or directly in Claude. A project of the Federal Office for Agriculture, implemented by Swiss Food Research.",
+      "button": "Join the pilot"
+    },
+    "maas": {
+      "title": "MaaS: Market Validation as a Service",
+      "line": "Go, pivot or stop before the first production run.",
+      "audience": "Founders and firms; also for grant proposals and due diligence",
+      "blurb": "Will customers buy your product at your price? From a short brief, we simulate about 300 customer interviews across three market scenarios, grounded in Swiss prices, incomes and diets.",
+      "when": "When: before you build or produce anything, or to pre-check a grant proposal.",
+      "steps": [
+        "You submit a brief: problem, customers, price and your own success criteria.",
+        "We add Swiss market data: comparable products, incomes, allergies.",
+        "About 300 personas are interviewed; four independent reviewers check the analysis.",
+        "You get a target segment, willingness to pay, five hypotheses for field tests and matching experts."
+      ],
+      "button": "Submit a brief"
+    },
+    "r2m": {
+      "title": "Route2Market",
+      "line": "Put your product in front of real buyers, shelves and kitchens before you spend heavily on launch.",
+      "audience": "Members with a working product",
+      "blurb": "A challenge room with experts, then tests on shelf, in food service and with consumer panels. Foodflows launched after Route2Market.",
+      "when": "When: once a working product exists. Before it: MaaS."
+    },
+    "innoloop": {
+      "title": "Innoloop",
+      "line": "Chefs help you develop a product or improve a recipe.",
+      "audience": "Food companies",
+      "blurb": "Professional cooks test your product in their kitchen and give honest feedback on taste and handling.",
+      "when": "When: food service is your channel. Complements MaaS and Route2Market."
+    },
+    "eco": {
+      "title": "Ecosystem Map",
+      "line": "A map of the partners your idea needs, and warm introductions.",
+      "audience": "Members and non-members",
+      "blurb": "We break your idea into value-chain roles, find candidates for each and open the first doors. We draw on about 3'000 companies, research groups and other organisations, recorded with their needs and competences, and an active network of more than 5'000 people.",
+      "financing": "Can be financed through Ahead (canton of Zurich) or Innosuisse innovation mentoring."
+    },
+    "equip": {
+      "title": "Equipment sharing",
+      "line": "Save by using the network: share equipment or find it.",
+      "audience": "Members",
+      "blurb": "Save costs by using the network. Members offer idle equipment or find the machine for their next trial, from lab instruments to pilot plants."
+    },
+    "amp": {
+      "title": "AgrarMarktPionier",
+      "line": "Six months to test a farm idea on the market.",
+      "audience": "Farms",
+      "blurb": "Up to twelve coaching sessions and real customer conversations. The next round is planned for 2027."
+    },
+    "nextgen": {
+      "title": "Next Gen",
+      "line": "We bring food innovation into upper-school classrooms.",
+      "audience": "Upper schools",
+      "blurb": "Lectures at upper schools on the challenges and careers of the food system."
+    },
+    "events": {
+      "title": "Events",
+      "line": "Meet the partners, buyers and researchers you need, at 30 events a year, with better terms for members.",
+      "audience": "Everyone",
+      "blurb": "1'543 registrations across 30 events in 2026."
+    },
+    "news": {
+      "title": "Newsletter",
+      "line": "Open calls, events and trends in one monthly read, and a stage that puts members' work in front of 290+ organisations.",
+      "audience": "Everyone",
+      "blurb": "Every month: calls, events and trends from the Swiss and international agro-food sector."
+    }
+  }
+}

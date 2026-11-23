@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 2400">
+<path fill="#030a21" d="M1327.02,1080l127.02,220-127.02,220h-254.03l-127.02-220,127.02-220h254.03M1373.2,1000h-346.41l-173.21,300,173.21,300h346.41l173.21-300-173.21-300h0Z"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1200" y1="1062.5" x2="1200" y2="792.5"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1425" y1="1434.82" x2="1650" y2="1580"/>
+<circle fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" cx="1200" cy="570" r="210"/>
+<circle fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" cx="1830" cy="1690" r="210"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="975" y1="1434.82" x2="750" y2="1580"/>
+<circle fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" cx="570" cy="1690" r="210"/>
+</svg>

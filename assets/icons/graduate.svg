@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 2400">
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1920" y1="2040" x2="480" y2="2040"/>
+<path fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" d="M1580,760c0,209.87-170.13,380-380,380s-380-170.13-380-380"/>
+<path fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" d="M440,2000v-320c0-220.91,179.09-400,400-400h720c220.91,0,400,179.09,400,400v320"/>
+<polyline fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" points="1580 420 1580 660 820 660 820 380"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="580" y1="360" x2="1820" y2="420"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1720" y1="440" x2="1720" y2="600"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1720" y1="660" x2="1720" y2="740"/>
+<polygon fill="#030a21" points="1199.58 1860 1107.29 1860 785.32 1299.94 854.68 1260.06 1199.58 1860"/>
+<polygon fill="#030a21" points="1614.68 1299.94 1292.71 1860 1200.42 1860 1545.32 1260.06 1614.68 1299.94"/>
+</svg>

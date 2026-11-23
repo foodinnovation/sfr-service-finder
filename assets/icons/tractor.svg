@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 2400">
+<circle fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" cx="750" cy="1490" r="510"/>
+<circle fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" cx="1880" cy="1720" r="280"/>
+<path fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" d="M1287.46,1000h272.54c209.87,0,380,170.13,380,380v100"/>
+<path fill="#030a21" d="M1287.46,960h-82.02l-89.24-395.24c-7.97-35.28-27.92-67.15-56.17-89.74-28.25-22.58-63.73-35.02-99.9-35.02h-420.13v-80h420.13c54.25,0,107.47,18.66,149.85,52.53,42.38,33.88,72.3,81.68,84.25,134.61l93.23,412.86Z"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="500" y1="1040" x2="500" y2="440"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1620" y1="1640" x2="1240" y2="1640"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1680" y1="600" x2="1680" y2="1020"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="1720" y1="560" x2="1840" y2="560"/>
+<circle fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" cx="750" cy="1490" r="184.47"/>
+</svg>

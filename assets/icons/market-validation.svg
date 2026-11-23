@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 2400">
+<path fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" d="M360,890h200v850c0,55.19-44.81,100-100,100h0c-55.19,0-100-44.81-100-100v-850h0Z"/>
+<path fill="#030a21" d="M1178.57,1880H460v-80h685.07c4.64,14.31,9.91,28.46,15.81,42.42,5.42,12.8,11.31,25.33,17.69,37.58Z"/>
+<path fill="#030a21" d="M1300,1800v80h-28.89c-14.16-21.7-26.36-44.65-36.55-68.74-1.58-3.74-3.11-7.49-4.58-11.26h70.02Z"/>
+<path fill="#030a21" d="M1780,400v739.05c-26.18-7.32-52.89-12.54-80-15.64V400h80Z"/>
+<path fill="#030a21" d="M1700,1204.04c27.24,3.69,53.96,9.93,80,18.68v17.28h-80v-35.96Z"/>
+<polyline fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" points="560 1440 560 360 1700 360"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="720" y1="640" x2="1220" y2="640"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="720" y1="960" x2="1520" y2="960"/>
+<path fill="#030a21" d="M1520,1070v63.9c-18.41,4.34-36.57,9.71-54.45,16.1h-745.55v-80h800Z"/>
+<path fill="#030a21" d="M720,1220h613.28c-21.52,15.74-41.87,33.2-60.98,52.3-8.96,8.96-17.55,18.2-25.79,27.7h-526.51v-80Z"/>
+<path fill="#030a21" d="M1520,1220v80h-159.34c32.68-26.93,68.89-48.86,108.08-65.44,13.03-5.51,26.26-10.36,39.66-14.56h11.6Z"/>
+<line fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" x1="720" y1="1600" x2="1020" y2="1600"/>
+<circle fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" cx="1640" cy="1640" r="400"/>
+<polyline fill="none" stroke="#030a21" stroke-width="80" stroke-miterlimit="10" points="1427.27 1654.23 1579.11 1806.07 1852.73 1473.93"/>
+</svg>
