@@ -53,7 +53,7 @@
       "member_advantage": true,
       "pilot": true,
       "next": "r2m",
-      "link": "maasBrief"
+      "link": "maasRequest"
     },
     "r2m": {
       "pillar": "business-creation",

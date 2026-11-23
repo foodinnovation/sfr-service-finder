@@ -64,9 +64,9 @@
     "member": "https://www.swissfoodresearch.ch/de/mitgliedschaft/",
     "coaching": "https://www.swissfoodresearch.ch/de/agro-food-innovations-services/coaching/",
     "booster": "https://www.futurefoodfarming.org",
-    "maasBrief": "https://wkf.ms/4pqfnAG",
     "radicle": "https://wkf.ms/4CaXiOi",
-    "ig": "https://www.swissfoodresearch.ch/de/agro-food-innovations-services/Innovationsgruppen/"
+    "ig": "https://www.swissfoodresearch.ch/de/agro-food-innovations-services/Innovationsgruppen/",
+    "maasRequest": "mailto:contact@swissfoodresearch.ch?subject=MaaS%20anfragen&body=Liebes%20Swiss%20Food%20Research%20Team%0A%0AIch%20interessiere%20mich%20sehr%20f%C3%BCr%20Ihre%20Unterst%C3%BCtzung%20mit%20MaaS%20%28Market%20Validation%20as%20a%20Service%29.%0A%0AOrganisation%3A%0AProdukt%20oder%20Idee%3A%0AWas%20ich%20herausfinden%20m%C3%B6chte%3A%0A%0ABitte%20teilen%20Sie%20mir%20die%20n%C3%A4chsten%20Schritte%20mit.%0A%0AFreundliche%20Gr%C3%BCsse%0A"
   },
   "pillars": {
     "innovation": "Innovation",
@@ -171,7 +171,7 @@
         "Rund 300 Personas werden befragt; vier unabhängige Prüfer kontrollieren die Analyse.",
         "Sie erhalten Zielsegment, Zahlungsbereitschaft, fünf Hypothesen für Feldtests und passende Fachleute."
       ],
-      "button": "Intake Formular"
+      "button": "MaaS anfragen"
     },
     "r2m": {
       "title": "Route2Market",

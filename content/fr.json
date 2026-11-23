@@ -64,9 +64,9 @@
     "member": "https://www.swissfoodresearch.ch/fr/avantages-de-ladhesion/",
     "coaching": "https://www.swissfoodresearch.ch/fr/agro-food-innovation/coaching/",
     "booster": "https://www.futurefoodfarming.org",
-    "maasBrief": "https://wkf.ms/4pqfnAG",
     "radicle": "https://wkf.ms/4CaXiOi",
-    "ig": "https://www.swissfoodresearch.ch/en/agro-food-innovation/innovation-groups/"
+    "ig": "https://www.swissfoodresearch.ch/en/agro-food-innovation/innovation-groups/",
+    "maasRequest": "mailto:contact@swissfoodresearch.ch?subject=Demande%20MaaS&body=Ch%C3%A8re%20%C3%A9quipe%20de%20Swiss%20Food%20Research%2C%0A%0AJe%20suis%20tr%C3%A8s%20int%C3%A9ress%C3%A9%C2%B7e%20par%20votre%20soutien%20avec%20MaaS%20%28Market%20Validation%20as%20a%20Service%29.%0A%0AOrganisation%3A%0AProduit%20ou%20id%C3%A9e%3A%0ACe%20que%20j%27aimerais%20savoir%3A%0A%0AMerci%20de%20m%27indiquer%20les%20prochaines%20%C3%A9tapes.%0A%0AMeilleures%20salutations%0A"
   },
   "pillars": {
     "innovation": "Innovation",
@@ -171,7 +171,7 @@
         "Environ 300 personas sont interrogés; quatre réviseurs indépendants contrôlent l'analyse.",
         "Vous recevez le segment cible, la disposition à payer, cinq hypothèses à tester sur le terrain et des experts adaptés."
       ],
-      "button": "Formulaire d'inscription"
+      "button": "Demander MaaS"
     },
     "r2m": {
       "title": "Route2Market",
