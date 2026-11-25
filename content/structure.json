@@ -17,7 +17,7 @@
     "booster": {
       "pillar": "innovation",
       "icon": "rocket",
-      "member_advantage": false,
+      "member_advantage": true,
       "pilot": false,
       "link": "booster"
     },
